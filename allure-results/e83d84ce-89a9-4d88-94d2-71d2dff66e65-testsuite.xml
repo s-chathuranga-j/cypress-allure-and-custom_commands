@@ -1,0 +1,81 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687783667338' stop='1687783674152'>
+    <name>Misc</name>
+    <title>Misc</title>
+    <test-cases>
+        <test-case start='1687783667338' status='passed' stop='1687783669387'>
+            <name>.end() - end the command chain</name>
+            <title>.end() - end the command chain</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783669395' status='broken' stop='1687783670098'>
+            <name>cy.exec() - execute a system command</name>
+            <title>cy.exec() - execute a system command</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>`cy.exec('cat /Users/chathurangajayasinghe/Project Workspace/Cypress Test Projects/AllureReporting/cypress.config.js')` failed because the command exited with a non-zero code.
+                
+                Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+                
+                Information about the failure:
+                Code: 1
+                
+                Stderr:
+                cat: /Users/chathurangajayasinghe/Project: No such file or directory
+                cat: Workspace/Cypress: No such file or directory
+                cat: Test: No such file or directory
+                cat: Projects/AllureReporting/cypress.con...
+                
+                https://on.cypress.io/exec</message>
+                <stack-trace>CypressError: `cy.exec('cat /Users/chathurangajayasinghe/Project Workspace/Cypress Test Projects/AllureReporting/cypress.config.js')` failed because the command exited with a non-zero code.
+                
+                Pass `{failOnNonZeroExit: false}` to ignore exit code failures.
+                
+                Information about the failure:
+                Code: 1
+                
+                Stderr:
+                cat: /Users/chathurangajayasinghe/Project: No such file or directory
+                cat: Workspace/Cypress: No such file or directory
+                cat: Test: No such file or directory
+                cat: Projects/AllureReporting/cypress.con...
+                
+                https://on.cypress.io/exec
+                    at &lt;unknown> (https://example.cypress.io/__cypress/runner/cypress_runner.js:146208:85)
+                    at tryCatcher (https://example.cypress.io/__cypress/runner/cypress_runner.js:18744:23)
+                    at Promise._settlePromiseFromHandler (https://example.cypress.io/__cypress/runner/cypress_runner.js:16679:31)
+                    at Promise._settlePromise (https://example.cypress.io/__cypress/runner/cypress_runner.js:16736:18)
+                    at Promise._settlePromise0 (https://example.cypress.io/__cypress/runner/cypress_runner.js:16781:10)
+                    at Promise._settlePromises (https://example.cypress.io/__cypress/runner/cypress_runner.js:16861:18)
+                    at _drainQueueStep (https://example.cypress.io/__cypress/runner/cypress_runner.js:13451:12)
+                    at _drainQueue (https://example.cypress.io/__cypress/runner/cypress_runner.js:13444:9)
+                    at ../../node_modules/bluebird/js/release/async.js.Async._drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:13460:5)
+                    at Async.drainQueues (https://example.cypress.io/__cypress/runner/cypress_runner.js:13330:14)
+                From Your Spec Code:
+                    at Context.eval (webpack:///./cypress/e2e/2-advanced-examples/misc.cy.js:61:9)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1687783670136' status='passed' stop='1687783670476'>
+            <name>cy.focused() - get the DOM element that has focus</name>
+            <title>cy.focused() - get the DOM element that has focus</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783670481' status='passed' stop='1687783670616'>
+            <name>cy.wrap() - wrap an object</name>
+            <title>cy.wrap() - wrap an object</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

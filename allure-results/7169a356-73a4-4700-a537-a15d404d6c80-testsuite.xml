@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687783723198' stop='1687783726076'>
+    <name>Local Storage / Session Storage</name>
+    <title>Local Storage / Session Storage</title>
+    <test-cases>
+        <test-case start='1687783723198' status='passed' stop='1687783725240'>
+            <name>cy.clearLocalStorage() - clear all data in localStorage for the current origin</name>
+            <title>cy.clearLocalStorage() - clear all data in localStorage for the current origin</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783725248' status='passed' stop='1687783725478'>
+            <name>cy.getAllLocalStorage() - get all data in localStorage for all origins</name>
+            <title>cy.getAllLocalStorage() - get all data in localStorage for all origins</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783725483' status='passed' stop='1687783725675'>
+            <name>cy.clearAllLocalStorage() - clear all data in localStorage for all origins</name>
+            <title>cy.clearAllLocalStorage() - clear all data in localStorage for all origins</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783725679' status='passed' stop='1687783725876'>
+            <name>cy.getAllSessionStorage() - get all data in sessionStorage for all origins</name>
+            <title>cy.getAllSessionStorage() - get all data in sessionStorage for all origins</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783725881' status='passed' stop='1687783726076'>
+            <name>cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins</name>
+            <title>cy.clearAllSessionStorage() - clear all data in sessionStorage for all origins</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

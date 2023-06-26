@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1687783786047' stop='1687783786111'>
+    <name>custom commands in cypress</name>
+    <title>custom commands in cypress</title>
+    <test-cases>
+        <test-case start='1687783786047' status='passed' stop='1687783786087'>
+            <name>using custom command in commands file</name>
+            <title>using custom command in commands file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1687783786093' status='passed' stop='1687783786111'>
+            <name>using custom command outside of the commands file</name>
+            <title>using custom command outside of the commands file</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
